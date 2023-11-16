@@ -34,12 +34,12 @@ media = soma / 5;
 if (numero[i] % 2 == 0){
 parcontador++;
 somapar += numero[i];
-mediapar = somapar / 5;
+mediapar = somapar / parcontador;
 }
 else{
     imparcontador++;
     somaimpar += numero[i];
-    mediaimpar = somaimpar / 5;
+    mediaimpar = somaimpar / imparcontador;
 }
 if (numero[i] < 0){
 negativocontador++;
