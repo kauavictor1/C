@@ -29,7 +29,7 @@ menornumero = numero[i] < menornumero ? numero[i] : menornumero;
 contador++;
 
 soma += numero[i];
-media = soma / 5;
+media = soma / contador;
 
 if (numero[i] % 2 == 0){
 parcontador++;
